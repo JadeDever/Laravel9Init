@@ -1,4 +1,14 @@
 <?php
+/*
+ * @Author: Jadedever
+ * @Date: 2022-03-01 16:09:19
+ * @LastEditors: Jadedever
+ * @LastEditTime: 2022-03-01 18:30:53
+ * @FilePath: /laravel9init/app/Jobs/User/UserLocation.php
+ * @Description:
+ *
+ * Copyright (c) 2022 by Jadedever, All Rights Reserved.
+ */
 
 namespace App\Jobs\User;
 

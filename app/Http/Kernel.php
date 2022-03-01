@@ -3,7 +3,7 @@
  * @Author: Jadedever
  * @Date: 2022-03-01 15:04:29
  * @LastEditors: Jadedever
- * @LastEditTime: 2022-03-01 17:26:48
+ * @LastEditTime: 2022-03-01 18:48:45
  * @FilePath: /laravel9init/app/Http/Kernel.php
  * @Description:
  *
@@ -50,7 +50,7 @@ class Kernel extends HttpKernel
 
         'api' => [
             \App\Http\Middleware\AcceptHeader::class,
-            'throttle:api',
+            // 'throttle:api',
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
         ],
     ];
@@ -70,7 +70,7 @@ class Kernel extends HttpKernel
         'guest' => \App\Http\Middleware\RedirectIfAuthenticated::class,
         'password.confirm' => \Illuminate\Auth\Middleware\RequirePassword::class,
         'signed' => \Illuminate\Routing\Middleware\ValidateSignature::class,
-        'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
+        // 'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
         'verified' => \Illuminate\Auth\Middleware\EnsureEmailIsVerified::class,
     ];
 }

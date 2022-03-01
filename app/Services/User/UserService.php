@@ -3,7 +3,7 @@
  * @Author: Jadedever
  * @Date: 2022-03-01 15:54:09
  * @LastEditors: Jadedever
- * @LastEditTime: 2022-03-01 16:07:21
+ * @LastEditTime: 2022-03-01 18:19:22
  * @FilePath: /laravel9init/app/Services/User/UserService.php
  * @Description:
  *
@@ -13,7 +13,6 @@
 namespace App\Services\User;
 
 use \Exception;
-use App\Libraries\TencentMapLibrary;
 use App\Models\User\User;
 
 class UserService
