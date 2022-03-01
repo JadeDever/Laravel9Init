@@ -1,4 +1,14 @@
 <?php
+/*
+ * @Author: Jadedever
+ * @Date: 2022-02-08 23:52:58
+ * @LastEditors: Jadedever
+ * @LastEditTime: 2022-03-01 16:30:58
+ * @FilePath: /laravel9init/config/cors.php
+ * @Description:
+ *
+ * Copyright (c) 2022 by Jadedever, All Rights Reserved.
+ */
 
 return [
 
@@ -15,7 +25,7 @@ return [
     |
     */
 
-    'paths' => ['api/*', 'sanctum/csrf-cookie'],
+    'paths' => ['v1/*', 'sanctum/csrf-cookie'],
 
     'allowed_methods' => ['*'],
 
