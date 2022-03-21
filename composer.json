@@ -18,7 +18,8 @@
         "nwidart/laravel-modules": "^9.0",
         "overtrue/laravel-lang": "^6.0",
         "overtrue/laravel-passport-cache-token": "^3.0",
-        "tucker-eric/eloquentfilter": "^3.1"
+        "tucker-eric/eloquentfilter": "^3.1",
+        "w7corp/easywechat": "^5.18"
     },
     "require-dev": {
         "barryvdh/laravel-ide-helper": "^2.12",
@@ -70,7 +71,10 @@
     "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "easywechat-composer/easywechat-composer": true
+        }
     },
     "minimum-stability": "dev",
     "prefer-stable": true
