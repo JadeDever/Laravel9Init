@@ -19,6 +19,7 @@
         "nwidart/laravel-modules": "^9.0",
         "overtrue/laravel-lang": "^6.0",
         "overtrue/laravel-passport-cache-token": "^3.0",
+        "spatie/laravel-backup": "^8.0",
         "tucker-eric/eloquentfilter": "^3.1",
         "w7corp/easywechat": "^5.18"
     },
