@@ -3,7 +3,7 @@
  * @Author: Jadedever
  * @Date: 2022-02-08 23:52:58
  * @LastEditors: Jadedever
- * @LastEditTime: 2022-03-22 14:17:17
+ * @LastEditTime: 2022-03-22 14:52:02
  * @FilePath: /laravel9init/app/Console/Kernel.php
  * @Description:
  *
@@ -28,8 +28,8 @@ class Kernel extends ConsoleKernel
         // $schedule->command('inspire')->hourly();
 
         // 备份
-        $schedule->command('backup:clean')->daily()->at('01:00');
-        $schedule->command('backup:run')->daily()->at('01:30');
+        $schedule->command('backup:clean ')->daily()->at('01:00');
+        $schedule->command('backup:run --only-db --disable-notifications')->daily()->at('01:30');
     }
 
     /**
